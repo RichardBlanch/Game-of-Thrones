@@ -15,25 +15,26 @@
 		638710D4221FA6CE00158A51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638710D2221FA6CE00158A51 /* LaunchScreen.storyboard */; };
 		638710DE221FA6E300158A51 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638710DD221FA6E300158A51 /* CloudKit.framework */; };
 		63871101221FA71600158A51 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63871100221FA71600158A51 /* Character.swift */; };
-		63871109221FA72000158A51 /* GetCharacterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63871103221FA72000158A51 /* GetCharacterRequest.swift */; };
-		6387110A221FA72000158A51 /* CloudKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63871105221FA72000158A51 /* CloudKitHelper.swift */; };
-		6387110B221FA72000158A51 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63871107221FA72000158A51 /* APIs.swift */; };
-		6387110C221FA72000158A51 /* IceAndFireAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63871108221FA72000158A51 /* IceAndFireAPI.swift */; };
-		63871119221FA77900158A51 /* Braavos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63871118221FA77400158A51 /* Braavos.framework */; };
-		6387111A221FA77900158A51 /* Braavos.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 63871118221FA77400158A51 /* Braavos.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C8F8F33D2230D04B00AA2D02 /* Braavos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F8F3202230CFDF00AA2D02 /* Braavos.framework */; };
+		C8F8F33E2230D08700AA2D02 /* Braavos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F8F3202230CFDF00AA2D02 /* Braavos.framework */; };
+		C8F8F33F2230D08700AA2D02 /* Braavos.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C8F8F3202230CFDF00AA2D02 /* Braavos.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C8F8F3492230D0B000AA2D02 /* GetCharacterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F8F3432230D0B000AA2D02 /* GetCharacterRequest.swift */; };
+		C8F8F34A2230D0B000AA2D02 /* CloudKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F8F3452230D0B000AA2D02 /* CloudKitHelper.swift */; };
+		C8F8F34B2230D0B000AA2D02 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F8F3472230D0B000AA2D02 /* APIs.swift */; };
+		C8F8F34C2230D0B000AA2D02 /* IceAndFireAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F8F3482230D0B000AA2D02 /* IceAndFireAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		63871117221FA77400158A51 /* PBXContainerItemProxy */ = {
+		C8F8F31F2230CFDF00AA2D02 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 63871113221FA77300158A51 /* Braavos.xcodeproj */;
+			containerPortal = C8F8F31B2230CFDF00AA2D02 /* Braavos.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 6359A8CD2211F0DD00E1EDB2;
 			remoteInfo = Braavos;
 		};
-		6387111B221FA77900158A51 /* PBXContainerItemProxy */ = {
+		C8F8F3402230D08700AA2D02 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 63871113221FA77300158A51 /* Braavos.xcodeproj */;
+			containerPortal = C8F8F31B2230CFDF00AA2D02 /* Braavos.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 6359A8CC2211F0DD00E1EDB2;
 			remoteInfo = Braavos;
@@ -47,7 +48,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6387111A221FA77900158A51 /* Braavos.framework in Embed Frameworks */,
+				C8F8F33F2230D08700AA2D02 /* Braavos.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,11 +67,11 @@
 		638710DB221FA6E100158A51 /* GameOfThrones.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GameOfThrones.entitlements; sourceTree = "<group>"; };
 		638710DD221FA6E300158A51 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		63871100221FA71600158A51 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
-		63871103221FA72000158A51 /* GetCharacterRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCharacterRequest.swift; sourceTree = "<group>"; };
-		63871105221FA72000158A51 /* CloudKitHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitHelper.swift; sourceTree = "<group>"; };
-		63871107221FA72000158A51 /* APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
-		63871108221FA72000158A51 /* IceAndFireAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IceAndFireAPI.swift; sourceTree = "<group>"; };
-		63871113221FA77300158A51 /* Braavos.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Braavos.xcodeproj; path = ../../Braavos/Braavos.xcodeproj; sourceTree = "<group>"; };
+		C8F8F31B2230CFDF00AA2D02 /* Braavos.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Braavos.xcodeproj; path = ../../Bravos/Braavos.xcodeproj; sourceTree = "<group>"; };
+		C8F8F3432230D0B000AA2D02 /* GetCharacterRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCharacterRequest.swift; sourceTree = "<group>"; };
+		C8F8F3452230D0B000AA2D02 /* CloudKitHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitHelper.swift; sourceTree = "<group>"; };
+		C8F8F3472230D0B000AA2D02 /* APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
+		C8F8F3482230D0B000AA2D02 /* IceAndFireAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IceAndFireAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +79,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8F8F33E2230D08700AA2D02 /* Braavos.framework in Frameworks */,
+				C8F8F33D2230D04B00AA2D02 /* Braavos.framework in Frameworks */,
 				638710DE221FA6E300158A51 /* CloudKit.framework in Frameworks */,
-				63871119221FA77900158A51 /* Braavos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +108,8 @@
 		638710C5221FA6CD00158A51 /* GameOfThrones */ = {
 			isa = PBXGroup;
 			children = (
-				63871113221FA77300158A51 /* Braavos.xcodeproj */,
+				C8F8F3422230D0B000AA2D02 /* Networking */,
+				C8F8F31B2230CFDF00AA2D02 /* Braavos.xcodeproj */,
 				638710FF221FA71600158A51 /* Models */,
 				638710DB221FA6E100158A51 /* GameOfThrones.entitlements */,
 				638710C6221FA6CD00158A51 /* AppDelegate.swift */,
@@ -131,46 +134,44 @@
 		638710FF221FA71600158A51 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				63871102221FA72000158A51 /* Networking */,
 				63871100221FA71600158A51 /* Character.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		63871102221FA72000158A51 /* Networking */ = {
+		C8F8F31C2230CFDF00AA2D02 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				63871103221FA72000158A51 /* GetCharacterRequest.swift */,
-				63871104221FA72000158A51 /* Cloud Kit Helper */,
-				63871106221FA72000158A51 /* API */,
+				C8F8F3202230CFDF00AA2D02 /* Braavos.framework */,
 			);
-			name = Networking;
-			path = ../../../CloudKit/CloudKit/Networking;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		63871104221FA72000158A51 /* Cloud Kit Helper */ = {
+		C8F8F3422230D0B000AA2D02 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				63871105221FA72000158A51 /* CloudKitHelper.swift */,
+				C8F8F3432230D0B000AA2D02 /* GetCharacterRequest.swift */,
+				C8F8F3442230D0B000AA2D02 /* Cloud Kit Helper */,
+				C8F8F3462230D0B000AA2D02 /* API */,
+			);
+			path = Networking;
+			sourceTree = SOURCE_ROOT;
+		};
+		C8F8F3442230D0B000AA2D02 /* Cloud Kit Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C8F8F3452230D0B000AA2D02 /* CloudKitHelper.swift */,
 			);
 			path = "Cloud Kit Helper";
 			sourceTree = "<group>";
 		};
-		63871106221FA72000158A51 /* API */ = {
+		C8F8F3462230D0B000AA2D02 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				63871107221FA72000158A51 /* APIs.swift */,
-				63871108221FA72000158A51 /* IceAndFireAPI.swift */,
+				C8F8F3472230D0B000AA2D02 /* APIs.swift */,
+				C8F8F3482230D0B000AA2D02 /* IceAndFireAPI.swift */,
 			);
 			path = API;
-			sourceTree = "<group>";
-		};
-		63871114221FA77300158A51 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				63871118221FA77400158A51 /* Braavos.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,7 +189,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6387111C221FA77900158A51 /* PBXTargetDependency */,
+				C8F8F3412230D08700AA2D02 /* PBXTargetDependency */,
 			);
 			name = GameOfThrones;
 			productName = GameOfThrones;
@@ -231,8 +232,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 63871114221FA77300158A51 /* Products */;
-					ProjectRef = 63871113221FA77300158A51 /* Braavos.xcodeproj */;
+					ProductGroup = C8F8F31C2230CFDF00AA2D02 /* Products */;
+					ProjectRef = C8F8F31B2230CFDF00AA2D02 /* Braavos.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -243,11 +244,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		63871118221FA77400158A51 /* Braavos.framework */ = {
+		C8F8F3202230CFDF00AA2D02 /* Braavos.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Braavos.framework;
-			remoteRef = 63871117221FA77400158A51 /* PBXContainerItemProxy */;
+			remoteRef = C8F8F31F2230CFDF00AA2D02 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -270,24 +271,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63871109221FA72000158A51 /* GetCharacterRequest.swift in Sources */,
 				63871101221FA71600158A51 /* Character.swift in Sources */,
-				6387110B221FA72000158A51 /* APIs.swift in Sources */,
+				C8F8F34B2230D0B000AA2D02 /* APIs.swift in Sources */,
+				C8F8F34C2230D0B000AA2D02 /* IceAndFireAPI.swift in Sources */,
 				638710C9221FA6CD00158A51 /* ViewController.swift in Sources */,
+				C8F8F34A2230D0B000AA2D02 /* CloudKitHelper.swift in Sources */,
 				638710CF221FA6CD00158A51 /* GameOfThrones.xcdatamodeld in Sources */,
-				6387110A221FA72000158A51 /* CloudKitHelper.swift in Sources */,
-				6387110C221FA72000158A51 /* IceAndFireAPI.swift in Sources */,
 				638710C7221FA6CD00158A51 /* AppDelegate.swift in Sources */,
+				C8F8F3492230D0B000AA2D02 /* GetCharacterRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6387111C221FA77900158A51 /* PBXTargetDependency */ = {
+		C8F8F3412230D08700AA2D02 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Braavos;
-			targetProxy = 6387111B221FA77900158A51 /* PBXContainerItemProxy */;
+			targetProxy = C8F8F3402230D08700AA2D02 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
